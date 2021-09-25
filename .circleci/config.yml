@@ -1,6 +1,6 @@
 version: 2.1
 
-exectors:
+executors:
     backend-executor:
         docker:
             - image: circleci/node:16.9.0
