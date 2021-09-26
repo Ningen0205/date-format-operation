@@ -22,7 +22,8 @@ export class DateFormatOperation{
   }
 
   getFormattedHours(): string {
-    return ("0"+(this.date.getHours() + 1)).slice(-2);
+    // return ("0"+(this.date.getHours() + 1)).slice(-2);
+    return "1"
   }
 
 
